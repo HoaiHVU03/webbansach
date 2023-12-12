@@ -1,0 +1,129 @@
+
+
+#chk{
+	display: none;
+}
+.signup{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #F1C40F, #C0392B);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    color: #333;
+    z-index:99;
+}
+.signup-form{
+    width: 400px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 0 40px;
+    position: relative;
+   
+}
+.signup-form form{
+    margin-top: 30px;
+}
+.signup-form label{
+    font-size: 22px;
+    margin: 20px 0;
+    border-bottom: 1px solid #9999;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    color: chocolate;
+}
+.signup-form .form-input{
+    height: 50px;
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.signup-form  .checkbox-form{
+    font-size: 9px;
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    border: 1px solid #ddd;
+    padding: 6px;
+    border-radius: 5px;
+    position: absolute;
+    left: -154px;
+    top: 230px;
+}
+.signup-form .remem{
+    font-size:14px;
+    position: absolute;
+    left: 60px;
+    top: 237px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+.signup-form .submit{
+    margin-top: 30px;
+    height: 40px;
+    width: 80%;
+    cursor: pointer;
+    background-color: chocolate;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    font-family: 'Nunito', sans-serif;
+}
+.signup-form .submit:hover{
+	transform: scaleX(1.1);
+}
+.signup-form p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 330px;
+    left: 90px;
+
+}
+.signup-form a{
+    position: absolute ; 
+    top: 340px;
+    right: 90px;
+    font-weight: 600;
+    color: chocolate;
+    font-family: 'Nunito', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+.signup-form a:hover{
+    transform: scale(1.1);
+    color: chocolate;
+}
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}

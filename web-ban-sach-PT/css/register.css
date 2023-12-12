@@ -1,0 +1,107 @@
+body{
+    background: linear-gradient(45deg, #F1C40F, #C0392B);
+}
+.register-form{
+	position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: linear-gradient(45deg, #F1C40F, #C0392B);
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    color: #333;
+    z-index:999;
+
+}
+.register-form-content{
+    width: 400px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 0 40px;
+    position: relative;
+}
+.register-form-content form{
+    margin: 20px;
+}
+.register-form-content label{
+    font-size: 22px;
+    padding-top:  30px;
+    border-bottom: 1px solid #9999;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    color: chocolate;
+}
+.register-form-content .form-input{
+    height: 40px;
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    border: 1px solid #ddd;
+    padding: 6px;
+    border-radius: 5px;
+}
+.register-form-content .checkbox-form{
+    font-size: 9px;
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    border: 1px solid #ddd;
+    padding: 6px;
+    border-radius: 5px;
+    position: absolute;
+    left: -177px;
+    top: 190px;
+}
+.register-form-content .remem{
+    font-size:14px;
+    position: absolute;
+    left: 60px;
+    top: 196px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.register-form-content .submit{
+    margin-top: 5px;
+    height: 40px;
+    width: 80%;
+    cursor: pointer;
+    background-color: chocolate;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    font-family: 'Nunito', sans-serif;
+}
+.register-form-content .submit:hover{
+	transform: scaleX(1.1);
+}
+.register-form-content p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 380px;
+    left: 90px;
+
+}
+.register-form-content a{
+    position: absolute ;
+    top: 390px;
+    right: 90px;
+    font-weight: 600;
+    color: chocolate;
+    font-family: 'Nunito', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+.register-form-content a:hover{
+    transform: scale(1.1);
+    color: chocolate;
+}
